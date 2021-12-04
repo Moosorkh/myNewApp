@@ -1,10 +1,16 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'my-app',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: [ './app.component.css' ]
 })
-export class AppComponent {
-  title = 'myNewApp';
+
+export class AppComponent  {
+ 
+  // variables declared here will be class variables
+
+  speak() {
+    // variables declared here will be method variables
+  }
 }
